@@ -1,0 +1,7 @@
+--- p20.py
++++ p20_A.py
+@@ -5,0 +6 @@
++print(t.index(min(t))-1,min(t))
+@@ -14,0 +16,2 @@
++code output:
++-1 30

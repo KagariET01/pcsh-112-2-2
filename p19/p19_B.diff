@@ -1,0 +1,11 @@
+--- p19.py
++++ p19_B.py
+@@ -3,0 +4,3 @@
++	for x in map(int,input().split()):
++		c[x-1]+=1
++	print(max(c))
+@@ -10,0 +14,4 @@
++code output:
++3
++3
++4

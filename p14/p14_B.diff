@@ -1,0 +1,8 @@
+--- p14.py
++++ p14_B.py
+@@ -4 +4 @@
+-		pass
++		c+=[chr(ord(x)+3)]
+@@ -9,0 +10,2 @@
++code output:
++DEFGHIJKLMNOPQRSTUVWXYZ[\]

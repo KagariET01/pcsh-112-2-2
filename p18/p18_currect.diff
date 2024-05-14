@@ -1,0 +1,8 @@
+--- p18.py
++++ p18_currect.py
+@@ -9 +9 @@
+-		t=(time[2]-time[0])*60+(time[3]-time[0])
++		t=(time[2]-time[0])*60+(time[3]-time[1])
+@@ -11 +11 @@
+-print(*s)
++print(*s,sep='\n')

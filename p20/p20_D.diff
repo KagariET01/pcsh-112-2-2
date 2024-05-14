@@ -1,0 +1,12 @@
+--- p20.py
++++ p20_D.py
+@@ -5,0 +6 @@
++print(t.index(min(t)+1),min(t))
+@@ -14,0 +16,7 @@
++code output:
++[RUNTIME ERROR]
++kagariet01@server2:~/worksp/bugs/p20$ python3 p20_D.py < p20.in
++Traceback (most recent call last):
++  File "/home/kagariet01/worksp/bugs/p20/p20_D.py", line 6, in <module>
++    print(t.index(min(t)+1),min(t))
++ValueError: 31 is not in list

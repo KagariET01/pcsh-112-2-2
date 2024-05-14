@@ -1,0 +1,5 @@
+--- p4.py
++++ ./p4_currect.py
+@@ -7 +7 @@
+-		st+=[st.pop()-st.pop()]
++		st+=[-(st.pop()-st.pop())]

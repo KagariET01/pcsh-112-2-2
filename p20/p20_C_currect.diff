@@ -1,0 +1,4 @@
+--- p20.py
++++ p20_C_currect.py
+@@ -5,0 +6 @@
++print(t.index(min(t))+1,min(t))

@@ -1,0 +1,9 @@
+--- p12.py
++++ ./p12_currect.py
+@@ -5 +5,5 @@
+-			fs+=[f,n//f]
++			fs+=[f]
++			if(n//f!=f):
++				fs+=[n//f]
++			else:
++				break

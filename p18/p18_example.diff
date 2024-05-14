@@ -1,0 +1,12 @@
+--- p18.py
++++ p18_example.py
+@@ -11 +11 @@
+-print(*s)
++print(*s,sep='\n')
+@@ -27,2 +27,5 @@
+ code output:
+-Godzilla x Kong 125 The Cat Returns 73
++Godzilla x Kong
++125
++The Cat Returns
++73
