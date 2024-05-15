@@ -3,3 +3,6 @@
 @@ -7 +7 @@
 -		st+=[st.pop()-st.pop()]
 +		st+=[-(st.pop()-st.pop())]
+@@ -11 +11 @@
+-		st+=[st.pop()/st.pop()] #before: st+=[st.pop()/st.pop())]
++		st+=[1/st.pop()*st.pop()] #before: st+=[st.pop()/st.pop())]

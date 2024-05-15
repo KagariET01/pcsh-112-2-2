@@ -14,12 +14,18 @@ for x in s:
 print(st.pop())
 
 """
-hack input:
+hack input 1:
 3 1 -
-code output:
+code output 1:
 -2
-currect output:
+currect output 1:
 2
+hack input 2:
+3 1 /
+code output 2:
+0.3333333333333333
+currect output 2:
+3
 Ans:
-B
+C
 """
